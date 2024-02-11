@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  margin-left:-5px;
+  margin-right:-5px;
+}
+  
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear:right;
+  display: table;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #140206;
+}
+
+th, td {
+  text-align: left;
+  padding: 16px;
+  border: 1px solid #140206;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.tablehead {
+    text-align: center;
+    border: 1px solid #140206;
+   
+    height: 50px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+</style>
+</head>
+<body>
+
+    <p>
+        कर विभागाचे प्रमुख म्हणून श्री. खालिद बदियोद्दिन शेख हे सध्या काम पाहत
+        आहेत.
+      </p>
+      <div class="row">
+        <div class="column">
+            <div class="tablehead">कर संकलन विषयक बाबी</div>
+        </div>
+        <div class="column">
+            <div class="tablehead">वसुली पथक</div>
+        </div>
+      </div>
+
+<div class="row">
+  <div class="column">
+    <table>
+        <tr>
+          <td>
+            नगरपरिषद क्षेत्रात एकत्रित मालमत्ता कराची आकारणी करण्यात आलेल्या
+            मालमत्तांची संख्या
+          </td>
+          <td>९२४८</td>
+        </tr>
+        <tr>
+          <td>यापूर्वी चतुर्थ वार्षिक आकारणी कोणत्या वर्षी झाली ?</td>
+          <td>सन 2005</td>
+        </tr>
+        <tr>
+          <td>मधील एकत्रित मालमत्ता कराची दरडोई मागणी</td>
+          <td>रु. १०७</td>
+        </tr>
+        <tr>
+          <td>
+            १/२ आकाराच्या नळजोडणी साठी पाणीपट्टी दर व ते कधी पासून लागू आहेत ?
+          </td>
+          <td>११२.५</td>
+        </tr>
+        <tr>
+          <td>एकूण नळजोडण्याची संख्या ?</td>
+          <td>७२४२</td>
+        </tr>
+        <tr>
+          <td>एकूण रहिवासी मालमत्तांचे प्रमाणात नळजोडण्याची टक्केवारी</td>
+          <td>७८.३०</td>
+        </tr>
+      </table>
+  </div>
+  <div class="column">
+    <table>
+      <tr>
+        <th>भाग</th>
+        <th>वसुली भाग प्रमुख</th>
+        <th>भागातील गल्लीचे नाव</th>
+        <th>एकूण मागणी</th>
+        <th>एकूण वसुली</th>
+        <th>टक्केवारी</th>
+      </tr>
+      <tr>
+        <td>5,6,7,8</td>
+        <td>श्री. निलेश नारायण काळे</td>
+        <td>माळीवाडा, बाजारपेठ </td>
+        <td>50,000</td>
+        <td>25,000</td>
+        <td>50%</td>
+      </tr>
+      
+    </table>
+  </div>
+</div>
+
+</body>
+</html>
